@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>situs budaya tulungangung</title>
+    <link rel="stylesheet" href="contactUs1.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Viga&display=swap" rel="stylesheet">
+    <script >l
+      function submit() { 
+         alert("Terimakasih Sudah Memberi masukan kami");
+         document.location.href='index.html';
+
+      }
+
+
+    
+     </script>
+</head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3F2414;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #b86433;;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  
+  box-shadow: 0 15px 35px rgba(0, 0,0, 0.2);
+  padding: 10px;
+  margin: 30%;
+  margin-top: 100px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  width: 100%;
+  margin-top: 6px;
+  padding: 20px;
+  z-index: 90;
+  position: relative;
+  display: inline-block;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 90%;
+    margin-top: 0;
+    height: 30%;
+  }
+  .container {
+    margin-top: 120px ;
+    width: 50%;
+  }
+  .column {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  z-index: 90;
+  position: relative;
+  display: inline-block;
+ }
+}
+</style>
+<body>
+<nav>
+  <input type="checkbox" id="check">
+    <label for="check">
+    <i class="material-icons" id="btn">subject </i>
+    <i class="material-icons" id="close"> cancel </i>
+    </label>
+  </input>
+  <img src="LOGOCREAM-01.png" class="logocream">
+  <ul>
+    <li> <a href="slide2.html"> Situs </a></li>
+  </ul>
+</nav>
+<div class="layar-penuh">
+  <header id="home">
+  </header>
+    <div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+  
+        <label for="fname">Nama Depan</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Nama Belakang</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Kecamatan</label>
+        <select id="country" name="country">
+          <option value="">Tulungagung</option>
+          
+        </select>
+        <input type="submit" value="Submit" onclick="submit()">
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+</div>
+</body>
+</html>

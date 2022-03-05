@@ -1,0 +1,178 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+.container
+{
+    position: fixed;
+    width: 100%;
+}
+.wrapper{
+    font: 16px/28px, arial ;
+    background:radial-gradient(circle at top left, #ffa837 40%, #956f27 );
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   
+
+}
+.candi{
+    height: 480px;
+    width: 420px;
+    margin: auto;
+
+}
+.mendung{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    animation: animasiawan1 5s ease 50;
+}
+@keyframes animasiawan1{
+    50%{
+        margin-left: 30px;
+    }
+  
+}
+
+
+.mendung1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 90px;
+    left: 780px;
+    animation: animasiawan1 5s ease 50;
+}
+@keyframes animasiawan1{
+    50%{
+        margin-left: 30px;
+    }
+  
+}
+.mendung2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    animation: animasiawan2 5s ease 50;
+}
+@keyframes animasiawan2{
+    50%{
+        margin-left: 20px;
+    }
+  
+}
+.mendung3{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    animation: animasiawan3 5s ease 50;
+}
+@keyframes animasiawan3{
+   50%{
+       margin-left: 50px;
+   }
+}
+
+.masuk{
+    position: absolute;
+    text-align: center;
+    left: 630px;
+    top:600px;
+    color: white;
+    background-color: #3F2414;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: 2px solid #3F2414;
+    box-shadow: 0 15px 35px rgba(0, 0,0, 0.2);
+}
+
+
+
+@media screen and (max-width: 1000px) 
+{
+    .candi{
+        margin-top: 170px;
+
+    }
+    .masuk{
+        left: 360px;
+        top: 680px;
+    }
+    .mendung{
+        height: 150px;
+        width: 150px;
+        left: 480px;
+        
+    
+    }
+    .mendung1{
+        height: 150px;
+        width: 150px;
+        left: 550px ;
+        top: 400px;
+    }
+    .mendung2{
+        height: 150px;
+        width: 150px;
+        left: 100px ;
+        top: 400px;
+    }
+    .mendung3{
+        height: 150px;
+        width: 150px;
+        left: 130px ;
+        top: 250px;
+    }
+
+}
+@media screen and (max-width: 700px) 
+{
+    .candi{
+        margin-top: 90px;
+        height: 400px;
+        width: 350px;
+
+    }
+    .masuk{
+        left: 140px;
+        top: 600px;
+    }
+    .mendung{
+        height: 100px;
+        width: 100px;
+        left: 240px;
+        top: 150px;
+        opacity: 0.6;
+    
+    }
+    .mendung1{
+        height: 150px;
+        width: 150px;
+        left: 550px ;
+        top: 100px;
+    }
+    .mendung2{
+        height: 150px;
+        width: 150px;
+        left: 100px ;
+        top: 450px;
+    }
+    .mendung3{
+        height: 100px;
+        width: 100px;
+        left: 5px ;
+        top: 100px;
+    }
+
+}
